@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ejercicios JavaScript</h1>
+
+    <div class="ejercicio">
+        <h2>1. Verificar Mayor de Edad</h2>
+        <input type="number" id="edad" placeholder="Ingrese edad">
+        <button onclick="verificarEdad()">Verificar</button>
+        <div id="resultado1" class="resultado"></div>
+    </div>
+
+    <div class="ejercicio">
+        <h2>2. Calcular Nota Final</h2>
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="carnet" placeholder="Carnet">
+        <input type="number" id="examen" placeholder="Nota Examen">
+        <input type="number" id="tareas" placeholder="Nota Tareas">
+        <input type="number" id="asistencia" placeholder="Nota Asistencia">
+        <input type="number" id="investigacion" placeholder="Nota Investigación">
+        <button onclick="calcularNota()">Calcular</button>
+        <div id="resultado2" class="resultado"></div>
+    </div>
+
+    <div class="ejercicio">
+        <h2>3. Calcular Aumento Salarial</h2>
+        <input type="text" id="nombreEmpleado" placeholder="Nombre">
+        <input type="number" id="salario" placeholder="Salario">
+        <select id="categoria">
+            <option value="">Seleccione categoría</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select>
+        <button onclick="calcularAumentoSalarial()">Calcular</button>
+        <div id="resultado3" class="resultado"></div>
+    </div>
+
+    <div class="ejercicio">
+        <h2>4. Encontrar Número Mayor</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="encontrarMayorNumero()">Encontrar</button>
+        <div id="resultado4" class="resultado"></div>
+    </div>
+
+    <div class="ejercicio">
+        <h2>5. Descuento en Coches</h2>
+        <select id="modeloCoche">
+            <option value="">Seleccione modelo</option>
+            <option value="FORD FIESTA">Ford Fiesta</option>
+            <option value="FORD FOCUS">Ford Focus</option>
+            <option value="FORD ESCAPE">Ford Escape</option>
+        </select>
+        <button onclick="calcularDescuentoCoche()">Calcular</button>
+        <div id="resultado5" class="resultado"></div>
+    </div>
+
+    <div class="ejercicio">
+        <h2>6. Descuento en Viajes</h2>
+        <input type="text" id="origen" placeholder="Origen">
+        <select id="destino">
+            <option value="">Seleccione destino</option>
+            <option value="LA COSTA DEL SOL">La Costa del Sol</option>
+            <option value="PANCHIMALCO">Panchimalco</option>
+            <option value="PUERTO EL TRIUNFO">Puerto el Triunfo</option>
+        </select>
+        <button onclick="calcularDescuentoViaje()">Calcular</button>
+        <div id="resultado6" class="resultado"></div>
+    </div>
+
+    <div class="ejercicio">
+        <h2>7. Análisis de Números</h2>
+        <button onclick="iniciarAnalisisNumeros()">Iniciar Análisis</button>
+        <div id="resultado7" class="resultado"></div>
+    </div>
+
+    <div class="ejercicio">
+        <h2>8. Tabla de Multiplicar</h2>
+        <input type="number" id="numTabla" placeholder="Número para la tabla">
+        <button onclick="generarTabla()">Generar</button>
+        <pre id="resultado8" class="resultado"></pre>
+    </div>
+
+    <div class="ejercicio">
+        <h2>9. Clasificar Temperatura</h2>
+        <input type="number" id="tempCelsius" placeholder="Temperatura en Celsius">
+        <button onclick="clasificarTemperaturaFunc()">Clasificar</button>
+        <div id="resultado9" class="resultado"></div>
+    </div>
+
+    <div class="ejercicio">
+        <h2>10. Promedio de Edades por Turno</h2>
+        <button onclick="calcularPromedioEdades()">Calcular Promedios</button>
+        <div id="resultado10" class="resultado"></div>
+    </div>
+
+   
+</body>
+</html>
